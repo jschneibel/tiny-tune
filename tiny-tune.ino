@@ -4,8 +4,8 @@ MIT License
 GitHub: https://github.com/jschneibel/tiny-tune
 
 This is a sample program that plays a tune on an Arduino. The program has been optimized to consume 
-as little SRAM (variable memory) as possible for long melodies. Furthermore, additional code can
-be executed while the tune is played.
+as little SRAM (variable memory) as possible for long melodies. Furthermore, other code can
+be executed while the tune is played, since no delays are used to play the tunes.
 
 In order to run the program, compile and upload the following files to your Arduino:
 - tiny-tune.ino
@@ -31,6 +31,7 @@ int currentNoteDuration = 100; // buffer variable for note durations (only one n
 int pauseBetweenNotes = 100;
 bool playPauseNext = false;
 
+// Threads are used to play the tunes.
 ThreadController threadController = ThreadController();
 Thread tuneThread = Thread();
 
