@@ -1,7 +1,7 @@
 # tiny-tune
 This is a sample program that plays a tune on an Arduino. The program has been optimized to consume 
 as little SRAM (variable memory) as possible for long melodies. Furthermore, other code can
-be executed while the tune is played, since no delays are used to play the tunes.
+be executed while music is being played, since no delays are used to play the music.
 
 Tested on an Arduino UNO.
 
