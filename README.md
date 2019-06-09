@@ -1,7 +1,10 @@
-# tiny-tune
+# Tiny Tune
 This is a sample program that plays a tune on an Arduino. The program has been optimized to consume
 as little SRAM (variable memory) as possible for long melodies. Furthermore, other code can
 be executed while music is being played, since no delays are used to play the music.
+
+A more elaborate article about the project can be found on the official Arduino Project Hub:
+https://create.arduino.cc/projecthub/jonathanschneibel/tiny-tune-optimized-audio-playback-2e4c9b.
 
 Tested on an Arduino UNO.
 
